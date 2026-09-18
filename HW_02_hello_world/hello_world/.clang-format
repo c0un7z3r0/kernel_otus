@@ -1,0 +1,8 @@
+BasedOnStyle: Linux
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterFunction: false
+ColumnLimit: 80
