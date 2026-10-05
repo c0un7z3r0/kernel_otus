@@ -1,0 +1,7 @@
+obj-m += kernel_fifo.o
+
+kernel_fifo-y := src/main.o \
+                 src/fifo_ops.o \
+                 src/params.o
+
+ccflags-y += -I$(src)/inc
